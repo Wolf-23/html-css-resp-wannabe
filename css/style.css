@@ -131,25 +131,20 @@ img {
 
 @media screen and (max-width: 768px) {
 
-    .lessons .container,
-    .steps .container,
-    .why-us .container {
+    .container {
         width: 100%;
     }
 } 
 
 @media screen and (max-width: 480px) {
 
-    .lessons .row, 
-    .steps .row, 
-    .why-us .row {
+    .row {
         flex-wrap: wrap;
     }
 
-    .lessons .row .col, 
-    .steps .row .col, 
-    .why-us .row .col {
+    .row .col {
         width: 100%;
         margin: 30px 0;
     }
 }
+
